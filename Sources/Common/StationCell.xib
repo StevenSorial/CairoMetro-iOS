@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="StationCell" rowHeight="69" id="fpW-KS-57Q" customClass="StationCell" customModule="Metro" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="426" height="69"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="fpW-KS-57Q" id="njt-xI-2on">
+                <rect key="frame" x="0.0" y="0.0" width="426" height="69"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Line" translatesAutoresizingMaskIntoConstraints="NO" id="R5S-Xr-Tj6">
+                        <rect key="frame" x="17.5" y="-1" width="34.5" height="34.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="R5S-Xr-Tj6" secondAttribute="height" id="BaB-Gs-uFz"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Line" translatesAutoresizingMaskIntoConstraints="NO" id="ugN-1J-RDZ">
+                        <rect key="frame" x="17.5" y="35.5" width="34.5" height="34.5"/>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Circle" translatesAutoresizingMaskIntoConstraints="NO" id="E9s-GR-ewd">
+                        <rect key="frame" x="0.0" y="0.0" width="69" height="69"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="E9s-GR-ewd" secondAttribute="height" id="MWa-H7-RAv"/>
+                        </constraints>
+                    </imageView>
+                    <stackView contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="Jwb-kX-0UV">
+                        <rect key="frame" x="69" y="8" width="357" height="53"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kfz-nz-KB8">
+                                <rect key="frame" x="0.0" y="0.0" width="357" height="30.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XBf-GK-CBp">
+                                <rect key="frame" x="0.0" y="30.5" width="357" height="22.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ugN-1J-RDZ" firstAttribute="centerX" secondItem="E9s-GR-ewd" secondAttribute="centerX" id="1OU-cp-Jas"/>
+                    <constraint firstAttribute="trailing" secondItem="Jwb-kX-0UV" secondAttribute="trailing" id="8vx-nd-eGn"/>
+                    <constraint firstItem="Jwb-kX-0UV" firstAttribute="top" secondItem="njt-xI-2on" secondAttribute="top" constant="8" id="J0h-0H-9jk"/>
+                    <constraint firstItem="Jwb-kX-0UV" firstAttribute="leading" secondItem="E9s-GR-ewd" secondAttribute="trailing" id="LcP-2i-ZQG"/>
+                    <constraint firstItem="E9s-GR-ewd" firstAttribute="top" secondItem="njt-xI-2on" secondAttribute="top" id="RX2-Oa-wRy"/>
+                    <constraint firstItem="R5S-Xr-Tj6" firstAttribute="top" secondItem="njt-xI-2on" secondAttribute="top" constant="-1" id="SAn-CA-YD5"/>
+                    <constraint firstAttribute="bottom" secondItem="E9s-GR-ewd" secondAttribute="bottom" id="WcB-5i-cC0"/>
+                    <constraint firstAttribute="bottom" secondItem="Jwb-kX-0UV" secondAttribute="bottom" constant="8" id="cGh-mR-f7S"/>
+                    <constraint firstItem="R5S-Xr-Tj6" firstAttribute="centerX" secondItem="E9s-GR-ewd" secondAttribute="centerX" id="hI8-rO-YV9"/>
+                    <constraint firstItem="ugN-1J-RDZ" firstAttribute="width" secondItem="ugN-1J-RDZ" secondAttribute="height" id="j64-t8-LEs"/>
+                    <constraint firstItem="E9s-GR-ewd" firstAttribute="leading" secondItem="njt-xI-2on" secondAttribute="leading" id="mxP-Bq-7oH"/>
+                    <constraint firstAttribute="bottom" secondItem="ugN-1J-RDZ" secondAttribute="bottom" constant="-1" id="rxG-fX-eMT"/>
+                    <constraint firstItem="ugN-1J-RDZ" firstAttribute="width" secondItem="E9s-GR-ewd" secondAttribute="width" multiplier="0.5" id="sBb-YI-fwI"/>
+                    <constraint firstItem="R5S-Xr-Tj6" firstAttribute="width" secondItem="E9s-GR-ewd" secondAttribute="width" multiplier="0.5" id="zSC-ac-YsT"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="circleIV" destination="E9s-GR-ewd" id="1zh-bH-bbV"/>
+                <outlet property="lowerLineIV" destination="ugN-1J-RDZ" id="kbb-yP-LH1"/>
+                <outlet property="subtitleLbl" destination="XBf-GK-CBp" id="qiX-LR-rGj"/>
+                <outlet property="titleLbl" destination="kfz-nz-KB8" id="4Bi-Uc-Ajs"/>
+                <outlet property="titleStack" destination="Jwb-kX-0UV" id="Z9d-uu-Fz5"/>
+                <outlet property="upperLineIV" destination="R5S-Xr-Tj6" id="vgn-Wi-8zw"/>
+            </connections>
+            <point key="canvasLocation" x="-96" y="-292"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Circle" width="50" height="50"/>
+        <image name="Line" width="25" height="25"/>
+    </resources>
+</document>

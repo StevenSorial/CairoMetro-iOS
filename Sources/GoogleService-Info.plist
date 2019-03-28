@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>288278064267-chr6ia0gfns37mul4q87sr8rnhmmlfvg.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.288270075284-chr6ia0gfns37mul4q87sr8rnhmmlfvg</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDFq6B-kHjnAcQh8R7-rZnZxAofWe_BvHs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>288370853734</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.stevenmagdy.CairoMetro</string>
+	<key>PROJECT_ID</key>
+	<string>metroapp-284880</string>
+	<key>STORAGE_BUCKET</key>
+	<string>metroapp-295808.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:288270845224:ios:b4fee0c15f66d22a923b81</string>
+	<key>DATABASE_URL</key>
+	<string>https://metroapp-295808.firebaseio.com</string>
+	<key>ADMOB_APP_ID</key>
+	<string>ca-app-pub-65826729832781637~4731847346</string>
+</dict>
+</plist>

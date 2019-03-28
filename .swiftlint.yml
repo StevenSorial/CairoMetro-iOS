@@ -1,0 +1,95 @@
+excluded:
+  - Pods
+  - R.generated.swift
+disabled_rules:
+  - force_cast
+  - force_unwrapping
+  - superfluous_disable_command
+  - large_tuple
+opt_in_rules:
+  - anyobject_protocol
+  - array_init
+  - attributes
+  - closure_body_length
+  - closure_end_indentation
+  - closure_spacing
+  - collection_alignment
+  - contains_over_first_not_nil
+  - convenience_type
+  - discouraged_object_literal
+  - discouraged_optional_boolean
+  - discouraged_optional_collection
+  - empty_count
+  - empty_string
+  - fallthrough
+  - fatal_error_message
+  - file_types_order
+  - first_where
+  - implicit_return
+  - joined_default_parameter
+  - last_where
+  - legacy_multiple
+  - legacy_random
+  - literal_expression_end_indentation
+  - lower_acl_than_parent
+  - modifier_order
+  - multiline_arguments
+  - multiline_parameters
+  - operator_usage_whitespace
+  - prefer_self_type_over_type_of_self
+  - private_action
+  - private_outlet
+  - reduce_boolean
+  - reduce_into
+  - redundant_nil_coalescing
+  - redundant_type_annotation
+  - sorted_first_last
+  - sorted_imports
+  - static_operator
+  - toggle_bool
+  - trailing_closure
+  - type_contents_order
+  - unneeded_parentheses_in_closure_argument
+  - unused_import
+  - yoda_condition
+type_contents_order:
+  order:
+    - associated_type
+    - case
+    - type_alias
+    - subtype
+    - type_property
+    - instance_property
+    - ib_inspectable
+    - ib_outlet
+    - initializer
+    - type_method
+    - view_life_cycle_method
+    - other_method
+    - ib_action
+    - subscript
+attributes:
+  always_on_same_line: []
+  always_on_line_above: []
+cyclomatic_complexity:
+  ignores_case_statements: true
+identifier_name:
+  excluded:
+    - db
+    - id
+    - vc
+    - vm
+line_length:
+  error: 120
+  ignores_comments: true
+switch_case_alignment:
+  indented_cases: true
+trailing_comma:
+  mandatory_comma: true
+implicit_return:
+  included:
+    - closure
+    - getter
+trailing_closure:
+  only_single_muted_parameter: true
+reporter: "xcode"

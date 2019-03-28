@@ -1,0 +1,26 @@
+{
+  "default": {
+    "show_complete_frame": false,
+    "title": {
+      "color": "#171717"
+    },
+    "background": "./background.jpg",
+    "padding": "3%x3%",
+    "stack_title": true,
+    "title_min_height": "35%"
+  },
+  "data": [
+    {
+      "filter": "iPhone11ProMax",
+      "force_device_type": "iPhone 11 Pro Max"
+    },
+    {
+      "filter": "iPhone8Plus",
+      "force_device_type": "iPhone 8 Plus"
+    },
+    {
+      "filter": "iPadPro(12.9-inch)(4thgeneration)",
+      "force_device_type": "iPad Pro (12.9-inch) (3rd generation)"
+    }
+  ]
+}

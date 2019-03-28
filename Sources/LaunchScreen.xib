@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="lXC-dT-4KE">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="YhS-DF-brS">
+                    <rect key="frame" x="62" y="280.5" width="290" height="290"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="YhS-DF-brS" secondAttribute="height" multiplier="1:1" id="2JE-xM-kT8"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="u0w-GO-f2i"/>
+            <color key="backgroundColor" name="Splash Background Color"/>
+            <constraints>
+                <constraint firstItem="YhS-DF-brS" firstAttribute="height" secondItem="lXC-dT-4KE" secondAttribute="height" multiplier="0.7" id="9Fh-qE-bKs"/>
+                <constraint firstItem="YhS-DF-brS" firstAttribute="centerY" secondItem="lXC-dT-4KE" secondAttribute="centerY" multiplier="0.95" id="GUy-1c-ZSr"/>
+                <constraint firstItem="YhS-DF-brS" firstAttribute="height" secondItem="lXC-dT-4KE" secondAttribute="height" multiplier="0.35" id="ZTi-47-d7n"/>
+                <constraint firstItem="YhS-DF-brS" firstAttribute="centerX" secondItem="lXC-dT-4KE" secondAttribute="centerX" id="lIN-wA-I62"/>
+                <constraint firstItem="YhS-DF-brS" firstAttribute="width" secondItem="lXC-dT-4KE" secondAttribute="width" multiplier="0.7" id="sUc-fQ-HeN"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="sUc-fQ-HeN"/>
+                    <exclude reference="9Fh-qE-bKs"/>
+                    <exclude reference="ZTi-47-d7n"/>
+                </mask>
+            </variation>
+            <variation key="widthClass=compact">
+                <mask key="constraints">
+                    <include reference="sUc-fQ-HeN"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=compact-widthClass=compact">
+                <mask key="constraints">
+                    <exclude reference="sUc-fQ-HeN"/>
+                    <include reference="9Fh-qE-bKs"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=compact-widthClass=regular">
+                <mask key="constraints">
+                    <include reference="9Fh-qE-bKs"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=regular">
+                <mask key="constraints">
+                    <include reference="ZTi-47-d7n"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="-406" y="-68"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Logo" width="500" height="500"/>
+        <namedColor name="Splash Background Color">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

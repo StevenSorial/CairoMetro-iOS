@@ -1,0 +1,3 @@
+CFBundleDisplayName = "مترو";
+NSLocationWhenInUseUsageDescription = "الموقع مطلوب لتحديد موقع أقرب محطة";
+NSUserTrackingUsageDescription = "هذا سيتم استخدامه لتقديم إعلانات مخصصة لك.";
